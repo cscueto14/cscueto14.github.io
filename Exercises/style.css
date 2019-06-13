@@ -1,0 +1,238 @@
+html, body{ 
+	width: 100%;
+	height: 100%;
+}
+
+
+.navbar-brand{ 
+	font-family: 'Cabin', sans-serif;
+	text-transform: uppercase;
+	font-size: 220%;
+}
+ul li{ 
+	font-family: 'Cabin', sans-serif;
+	text-transform: uppercase;
+	font-size: 100%;
+	padding-left: -2%;
+	margin-right: 10%;
+	font-weight: bold;
+	display: block;
+	transition: 0.1s;
+}
+
+#navbarTogglerDemo02{ 
+	padding-right: 6%;
+}
+
+.navbar-custom{ 
+	background-color: #253047;
+	background-image: none;
+  	background-repeat: no-repeat;
+}
+
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+    color: #38BFA1;
+}
+
+.header{ 
+	background: no-repeat center center fixed;
+	background-color: #38BFA1;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+.landing-text{ 
+	display: inline-block;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle; 
+	color: white;
+}
+
+.header img{ 
+	margin-top: 8%;
+	margin-bottom: 2%;
+}
+
+.landing-text h1{ 
+	font-weight: bold;
+	font-size: 480%;
+	padding-top: 0.5%;
+}
+
+.landing-text hr{ 
+	border: 2px solid white;
+	width: 6%;
+	display: inline-table;
+	position: relative;
+	margin-top: 2%;
+	margin-left: 0.5%;
+	margin-right: 0.5%
+}
+
+.landing-text .line{ 
+	display: inline-table;
+	position: relative;
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+
+.landing-text h3{ 
+	margin-bottom: 7%;
+}
+
+.portfolio{ 
+	background: no-repeat center center fixed;
+	background-color: white;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+	color:  #253047;
+	padding-bottom: 4%;
+}
+
+.portline{ 
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle; 
+	color:  #253047;
+}
+
+.portline h1{ 
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 300%;
+	padding-top: 6%;
+}
+
+.portline hr{ 
+	border: 2px solid;
+	width: 6%;
+	display: inline-table;
+	margin-top: 2%;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+}
+
+.portline .line2{ 
+	display: inline-table;
+	position: relative;
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+
+.portline img{ 	
+	width: 100%;
+	height: 100%;
+	padding-bottom: 9%;
+}
+
+.about{ 
+	background: no-repeat center center fixed;
+	background-color: #38BFA1;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+	padding-bottom: 8%;
+}
+
+.aboutInfo{ 
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle; 
+	color:  white;
+}
+
+.aboutInfo h1{ 
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 300%;
+	padding-top: 5%;
+}
+
+.aboutInfo hr{ 
+	border: 2px solid;
+	width: 6%;
+	display: inline-table;
+	margin-top: 2%;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+}
+
+.aboutInfo .row{ 
+	font-size: 120%;
+	padding-top: 2%;
+	margin-right: 22%;
+	margin-left: 22%;
+	text-align: left;
+	position: relative;
+}
+
+.aboutInfo .button1{ 
+	display: inline-table;
+	position: relative;
+	vertical-align: middle; 
+	text-align: center;
+	padding-top: 3%;
+}
+
+.button1 .btn{ 
+	text-align: center;
+	width: 110%;
+	padding: 8%;
+	border: 2px solid white;
+	color: white;
+	transition: 0.1s;
+}
+
+.btn:hover{ 
+	background-color: white;
+	color: black;
+	border: 2px solid white;
+}
+
+.contact{ 
+	width: 100%;
+	height: 100%;
+	background: no-repeat center center fixed;
+	background-color: white;
+	display: table;
+	position: relative;
+	background-size: cover;
+}
+
+.contactInfo{ 
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle; 
+	color:  #253047;
+}
+
+.contactInfo h1{ 
+	text-transform: uppercase;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 300%;
+	padding-top: 5%;
+}
+
+.contactInfo hr{ 
+	border: 2px solid;
+	width: 6%;
+	display: inline-table;
+	margin-top: 2%;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+}
+
+
+
